@@ -1,0 +1,10 @@
+import 'regenerator-runtime/runtime'
+import 'core-js/stable'
+
+import './assets/styles/index.scss'
+import './assets/styles/nav.scss'
+import './assets/styles/login.scss'
+import './assets/styles/register.scss'
+import './assets/styles/error.scss'
+import './assets/styles/messages.scss'
+import './assets/styles/logged.scss'

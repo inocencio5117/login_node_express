@@ -1,0 +1,23 @@
+.error-messages {
+  width: 55%;
+  padding: 0.375rem;
+  margin: 0.375rem 0rem;
+  text-align: center;
+  font-size: large;
+  font-weight: 500;
+  color: darkred;
+
+  background-color: rgba(red, $alpha: .4);
+}
+
+.success-messages {
+  width: 55%;
+  padding: 0.375rem;
+  margin: 0.375rem 0rem;
+  text-align: center;
+  font-size: large;
+  font-weight: 500;
+  color: darkgreen;
+
+  background-color: rgba(green, $alpha: .4);
+}

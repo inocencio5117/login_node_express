@@ -1,0 +1,26 @@
+<%- include('includes/nav') %>
+
+<div class="container">
+
+  <div class="login-container">
+
+    <%- include('includes/messages') %>
+
+      <h3>Login</h3>
+
+      <form action="/login" method="POST" class="form">
+
+        <input type="hidden" name="_csrf" value=<%= csrfToken %>>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" class="form-field" placeholder="email@example.com">
+
+        <label for="password">Password</label>
+        <input type="password" name="password" class="form-field" placeholder="4 to 15 digits">
+
+        <input type="submit" value="Login" class="submit">
+      </form>
+  </div>
+</div>
+
+<script src="./assets/js/bundle.js"></script>
